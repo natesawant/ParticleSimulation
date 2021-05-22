@@ -2,9 +2,10 @@
  A simulator that simulates particles with the concept of cellular autonoma
 
 /******************************************************************************
- *  Names: Nate Sawant & John Zammit  
+ *  
+ * Names: 
+ * Nate Sawant & John Zammit  
  *      
- *
  ******************************************************************************/
 
 Final Project Name: Cellular Automata Particle Simulator
@@ -13,7 +14,7 @@ Final Project Name: Cellular Automata Particle Simulator
  *  Describe how decided to implement this project. Is it original? or a spin-off
  *  a similar project? If it is the latter, submit a link or documentation to it.
 
- 
+ * Based off a mobile game that involved similar particle simulations.
  *****************************************************************************/
 
 /******************************************************************************
@@ -27,16 +28,9 @@ Final Project Name: Cellular Automata Particle Simulator
 
 /******************************************************************************
  *  Describe the data types you used to implement  your project
- *  
+ *  New datatypes such as different material types that will have different behavior (e.g. concrete is solid, sand forms triangular structures, water flows and fills all the voids)
  *****************************************************************************/
 
- 
-
-
-/******************************************************************************
- *  Describe the data types you used to implement  your project
- *  
- *****************************************************************************/
 
 /******************************************************************************
  *  Describe the methods used in your ADTs
