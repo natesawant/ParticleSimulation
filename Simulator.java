@@ -1,10 +1,17 @@
 public class Simulator {
-    private Material[][] grid;
-    public static void main(String[] args) {
+    private static Material[][] grid;
+    private static DisplaySim displaySim;
+    private static int width;
+    private static int height;
 
-    }
+    public Simulator(int x, int y) {
+        width = x;
+        height = y;
 
-    public  void setGridSize(int x, int y) {
-        grid = new Material[x][y];
+        grid = new Material[width][height];
+        grid[0][0] = new SandParticle();
+
+        displaySim = new DisplaySim(width, height);
+        displaySim.display();
     }
 }

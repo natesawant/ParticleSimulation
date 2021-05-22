@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Simulator",
+            "request": "launch",
+            "mainClass": "Simulator",
+            "projectName": "ParticleSimulation_e9449b09"
+        },
+        {
+            "type": "java",
+            "name": "Launch driver",
+            "request": "launch",
+            "mainClass": "driver",
+            "projectName": "ParticleSimulation_e9449b09"
+        },
+        {
+            "type": "java",
+            "name": "Launch DisplaySim",
+            "request": "launch",
+            "mainClass": "DisplaySim",
+            "projectName": "ParticleSimulation_e9449b09"
+        },
+        {
+            "type": "java",
             "name": "Launch driver",
             "request": "launch",
             "mainClass": "driver",
