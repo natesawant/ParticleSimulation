@@ -1,10 +1,10 @@
 public class Simulator {
-    private static Material[][] grid;
-    public static void main() {
+    private Material[][] grid;
+    public static void main(String[] args) {
 
     }
 
-    public static void setGridSize(int x, int y) {
+    public  void setGridSize(int x, int y) {
         grid = new Material[x][y];
     }
 }

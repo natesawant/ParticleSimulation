@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch driver",
+            "request": "launch",
+            "mainClass": "driver",
+            "projectName": "ParticleSimulation_a36a05c1"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
