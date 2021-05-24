@@ -4,4 +4,11 @@ public class SandParticle extends Material {
         //if not straight down, go left or right
         //if none of those stay in the same position
     }
+
+    public boolean goDown(Material[] adjCells) {
+        if (adjCells[0] == null) { //if cell below is empty
+            return true;
+        }
+        else return false;
+    }
 }
