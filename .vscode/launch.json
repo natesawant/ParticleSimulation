@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LinesDrawingExample",
+            "request": "launch",
+            "mainClass": "LinesDrawingExample",
+            "projectName": "ParticleSimulation_e9449b09"
+        },
+        {
+            "type": "java",
             "name": "Launch Simulator",
             "request": "launch",
             "mainClass": "Simulator",
