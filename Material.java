@@ -1,6 +1,6 @@
 import java.awt.Color;
 public class Material {
-    private Color matColor = Color.BLACK;
+    static private Color matColor = Color.BLACK;
         public static void main(String[] args) {
 
     }
@@ -35,5 +35,9 @@ public class Material {
         //adjCells[2] = right 
         //adjCells[3] = left
         return false;
+    }
+
+    public static Color getColor() {
+        return matColor;
     }
 }

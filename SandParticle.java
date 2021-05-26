@@ -1,4 +1,6 @@
+import java.awt.Color;
 public class SandParticle extends Material {
+    static private Color matColor = new Color(255, 216, 89);
     public void movementRules() { //should form triangular/pyramidal structure
         //checks if it can go straight down
         //if not straight down, go left or right

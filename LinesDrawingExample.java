@@ -23,8 +23,8 @@ public class LinesDrawingExample extends JFrame {
         Graphics2D g2d = (Graphics2D) g;
 
         BasicStroke stroke = new BasicStroke(10f);
-        Color waterColor = new Color(3, 202, 252);   
-        Color sandColor = new Color(255, 216, 89);
+        Color waterColor = WaterParticle.getColor();  
+        Color sandColor = SandParticle.getColor();
         g2d.setStroke(stroke);
         g2d.setColor(waterColor);
         g2d.drawLine(20, 50, 20, 50);
