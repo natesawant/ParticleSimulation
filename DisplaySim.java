@@ -21,5 +21,5 @@ public class DisplaySim {
     public DisplaySim(int x, int y) {
         width = x; 
         height = y;
-    }
+    } 
 }
