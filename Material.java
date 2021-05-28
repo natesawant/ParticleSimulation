@@ -1,6 +1,6 @@
 import java.awt.Color;
 public class Material {
-    private static Color matColor = Color.BLACK;
+    public static Color matColor = Color.BLACK;
         public static void main(String[] args) {
 
     }
